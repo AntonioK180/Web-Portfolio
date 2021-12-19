@@ -4,37 +4,45 @@
     <head>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <link rel="stylesheet" href="./assets/css/main.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="./assets/javascript/main.js"></script>
     </head>
 
     <header>
         <nav class="navbar navbar-expand-md navbar-dark bg-dark">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Right</a>
+                    <a class="nav-link" href="#">About Me</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="#">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Past Work</a>
                 </li>
             </ul>
         </nav>
     </header>
 
-    <body>  
+    <body>
         <div class="container" id="content">
             <div class="row">
                 <div class="col-md-auto" id="sticky-sidebar">
                     <div class="sticky-top">
                         <img src="./assets/images/profile-picture.jpg" class="rounded-circle img-responsive"/>
                         
-                        <p><b>About Me:</b><br> I am Antonio and I enjoy programming.</p>
-                        <p><b>Current Occupation:</b><br> Backend Intern @Devrix <br> Student @ELSYS</p>
-                        <p><b>Contact me:</b><br> 1dsa@gmail.com</p>
+                        <h5>General Info:</h5><p>I am Antonio, I live in Sofia, Bulgaria and I really enjoy programming. I am driving a Fiat Punto 1.3 Multijet with an output of 75 powerful black horses. </p>
+                        <h5>Current Occupation:</h5><p>Backend Intern @Devrix <br> Student @ELSYS</p>
+                        <h5>Contact me:</h5><p>antonio.kasabov@gmail.com</p>
 
                     </div>
                 </div>
 
                 <div class="col" id="main">
                     <h1>Antonio Kasabov</h1>
+
+                    <h2>About Me</h2>
+                    <p id="about-me"></p>
                 </div>
 
             </div>
