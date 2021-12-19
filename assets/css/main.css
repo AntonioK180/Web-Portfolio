@@ -1,0 +1,25 @@
+/*  
+    #8EE4AF
+    #EDF5E1
+    #5CDB95
+    #907163
+    #379683
+*/
+
+img {
+    width: 17.5vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5vh;
+}
+
+#sticky-sidebar {
+    padding-top: 2vh;
+    width: 25vw;
+    background-color: #907163;
+}
+
+#content {
+    margin-left: 0;
+}
