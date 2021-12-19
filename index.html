@@ -12,10 +12,10 @@
         <nav class="navbar navbar-expand-md navbar-dark bg-dark">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About Me</a>
+                    <a class="nav-link" href="#about">About Me</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Education</a>
+                    <a class="nav-link" href="#education">Education</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Past Work</a>
@@ -29,7 +29,7 @@
             <div class="row">
                 <div class="col-md-auto" id="sticky-sidebar">
                     <div class="sticky-top">
-                        <img src="./assets/images/profile-picture.jpg" class="rounded-circle img-responsive"/>
+                        <img src="./assets/images/profile-picture.jpg" class="rounded-circle img-responsive" id="profile-picture"/>
                         
                         <h5>General Info:</h5><p>I am Antonio, I live in Sofia, Bulgaria and I really enjoy programming. I am driving a Fiat Punto 1.3 Multijet with an output of 75 powerful black horses. </p>
                         <h5>Current Occupation:</h5><p>Backend Intern @Devrix <br> Student @ELSYS</p>
@@ -41,8 +41,29 @@
                 <div class="col" id="main">
                     <h1>Antonio Kasabov</h1>
 
-                    <h2>About Me</h2>
-                    <p id="about-me"></p>
+                    <div class="single-section">
+                        <h2>About Me</h2>
+                        <p id="about-me"></p>
+                    </div>
+
+                    <div class="single-section">
+                        <h2>Education</h2>
+                        <div id="education">
+                            <div class="gallery">
+                                <img src="assets/images/28-mo.jpg" class="rounded-circle img-responsive" id="first-school"/>
+                                <img src="assets/images/karsna-polyana.jpg" class="rounded-circle img-responsive" id="krasna-polyana"/>
+                            </div>
+                            <p>My education path started in "28 СУ Алеко Константинов" in Krasna polyana. I've studied there for 7 years and when we graduated, I had the best results on the exams for the last 3 years of the shcool's history.</p>
+                        </div>
+
+                        <div id="education">
+                            <div class="gallery">
+                                <img src="assets/images/tues-logo.png" class="rounded-circle img-responsive" id="tues-logo"/>
+                                <img src="assets/images/tues-vhod.jpg" class="rounded-circle img-responsive" id="tues-vhod"/>
+                            </div>
+                            <p>After the 7th grade I got accepted into the best IT school in Bulgaria - ELSYS (<b>EL</b>ectronic <b>SY</b>stems <b>S</b>chool).</p>
+                        </div>
+                    </div>
                 </div>
 
             </div>

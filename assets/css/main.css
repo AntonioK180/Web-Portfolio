@@ -6,7 +6,7 @@
     #379683
 */
 
-img {
+#profile-picture {
     width: 17.5vw;
     display: block;
     margin-left: auto;
@@ -20,10 +20,42 @@ img {
     background-color: #907163;
 }
 
+#main {
+    margin-left: 3vw;
+}
+
 #content {
     margin-left: 0;
 }
 
 #main > h2 {
     padding-top: 15px;
+}
+
+.single-section {
+    padding-top: 2.5vh;
+}
+
+
+.gallery {
+    display: flex;
+}
+
+.gallery > img {
+    padding: 5vh 0 2vh 0;
+    margin: auto;
+}
+
+#krasna-polyana {
+    width: 60%;
+    height: 100%;
+}
+
+#tues-logo {
+    width: 50%;
+    margin-left: -58px;
+}
+
+#tues-vhod {
+    width: 65%;
 }
